@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="UTF-8">
-    <title>Page Title</title>
-    <meta name="viewport" content="width-device-width,initial-scale-1">
-    <link rel="stylesheet" href="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ian Loo | Software Engineer</title>
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+
+    <!--CSS Styles-->
+    <link rel="stylesheet" href="css/style.css">
     <style>
 
     </style>
@@ -11,10 +14,113 @@
     <script src=""></script>
     
     <body>
-        <div class="">
-            <h1>Header</h1>
-            <p>This is paragraph 1.</p>
-            <p>This is paragraph 2.</p>
-        </div>
+        <!-- Navbar -->
+        <nav>
+            <h1>IAN LOO</h1>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+       
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+            <img
+                src="images/ian_website_hero.png"
+                alt="ian-loo"
+                loading="lazy"
+                class="hero_img"
+            />
+            <div class="bio animate_animated animate_shakeX">
+                <h1 class="bio-title">About Me</h1>
+                <p class="bio-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
+                    dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
+                    inventore tempore minus nemo, iste ullam illo laboriosam maiores
+                    repudiandae quos!
+                </p>
+            </div>
+        </section>
+
+        <!-- More About Me -->
+        <section class="more-about">
+            <h2>More About Me</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+                autem deleniti cupiditate molestias quis unde quae totam porro dicta
+                iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+
+            <div class="skills-wrapper">
+                <div class="first-set animate_animated animate_pulse">
+                    <img
+                        src="icons/Android_Studio_logo.svg.png"
+                        alt="android-studio"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="icons/C_logo.svg.png"
+                        alt="c-language"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="icons/swift-15-logo.png"
+                        alt="swift"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="icons/HTML_logo.png"
+                        alt="swift"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />                  
+                </div>
+                <div class="second-set animate_animated animate_pulse">
+                    <img
+                        src="icons/CSS3_logo.svg.png"
+                        alt="css-logo"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="icons/JavaScript-logo.png"
+                        alt="js-logo"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="icons/react_logo.svg.png"
+                        alt="react-logo"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="icons/Vue_logo.svg.png"
+                        alt="vue-logo"
+                        loading="lazy"
+                        class="icon icon-card"
+                    />  
+                </div>
+            </div>
+        </section>
     </body>
 </html>
