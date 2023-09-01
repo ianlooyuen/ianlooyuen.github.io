@@ -7,12 +7,7 @@
 
     <!--CSS Styles-->
     <link rel="stylesheet" href="css/style.css">
-    <style>
 
-    </style>
-
-    <script src=""></script>
-    
     <body>
         <!-- Navbar -->
         <nav>
@@ -23,6 +18,9 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
         </nav>
        
         <!-- Hero Section -->
@@ -122,5 +120,142 @@
                 </div>
             </div>
         </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Most Recent Projects</h2>
+            <div class="projects-container">
+                <div class="project-container project-card">
+                    <img
+                        src="images/AF_performance.png"
+                        alt="Air Force Performance Website"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Air Force Performance Website</h3>
+                    <p class="project-details">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Read More</a>
+                </div>
+                <div class="project-container project-card">
+                    <img
+                        src="images/dodge_em.png"
+                        alt="Dodge 'Em"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Dodge 'Em GBA Game</h3>
+                    <p class="project-details">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Read More</a>
+                </div>
+                <div class="project-container project-card">
+                    <img
+                        src="images/yangyang.png"
+                        alt="Yang Yang Virtual Pet"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Yang Yang Virtual Pet</h3>
+                    <p class="project-details">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2>Contact Me!</h2>
+            <div class="contact-form-container">
+                <div class="contact-form">
+                    <form action="" method="POST">
+                        <div class="form-control">
+                            <label for="name">Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="sender-name"
+                                placeholder="Enter Your Name"
+                                class="input-field"
+                                required
+                            />
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="sender-email"
+                                placeholder="Enter Your Email"
+                                class="input-field"
+                                required
+                            />
+                        </div>
+                        <div class="form-control">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                cols="60"
+                                rows="10"
+                                placeholder="Enter Your Message"
+                                name="message"
+                                class="input-field"
+                                required
+                            ></textarea>
+                        </div>
+                        <input
+                            type="submit"
+                            value="Submit"
+                            id="submit-btn"
+                            class="submit-btn"
+                        />
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scroll Up Button -->
+        <i class="scroll-up" id="scroll-up">
+            <img
+                src="icons/scroll-up.png"
+                class="up-arrow"
+                alt="scroll-up"
+            />
+        </i>
+
+        <!-- Footer Section -->
+        <footer>
+            <h2>Find Me On...</h2>
+            <div class="social-container">
+                <a href="#" class="fa fa-instagram" target="_blank"></a>
+                <a href="#" class="fa fa-linkedin" target="_blank"></a>
+                <a href="mailto: ianlooyuen@gmail.com" class="fa fa-google" target="_blank"></a>
+                <a href="https://github.com/ianlooyuen" class="fa fa-github" target="_blank"></a>
+            </div>
+            <p class="copy">Built by myself in 2023.</p>
+        </footer>
+
+        <!-- Website Scripts -->
+        <script src="js/app.js"></script>
+
+        <!-- Ion icons Scripts -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
     </body>
 </html>
