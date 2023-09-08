@@ -2,21 +2,37 @@
 <html lang="en">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Ian Loo | Software Engineer</title>
+
     <meta name="viewport" content="width-device-width,initial-scale=1">
 
     <!--CSS Styles-->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Favicons -->
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="icons/il_logo.png"
+    />
+
+    <!-- Animate CSS -->
+    <link 
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Ian Loo | Software Engineer</title>
+
     <body>
         <!-- Navbar -->
         <nav>
-            <h1>IAN LOO</h1>
+            <h1>ian loo</h1>
             <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="active" href="#home">home</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
             <button class="burger-menu" id="burger-menu">
                 <ion-icon class="bars" name="menu-outline"></ion-icon>
@@ -32,12 +48,12 @@
                 class="hero_img"
             />
             <div class="bio animate_animated animate_shakeX">
-                <h1 class="bio-title">About Me</h1>
+                <h1 class="bio-title">Hello!</h1>
                 <p class="bio-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-                    dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-                    inventore tempore minus nemo, iste ullam illo laboriosam maiores
-                    repudiandae quos!
+                    My name is Ian, and I am a recently-graduated, aspiring <strong>software engineer</strong>! 
+                    I love creating things, whether it would be a program coded, a picture taken, or a circuit built. I am
+                    passionate about design and user experiences, and have an innate desire to
+                    broaden my skillset. I am also a photographer, violinist, and graphic designer.
                 </p>
             </div>
         </section>
@@ -46,18 +62,18 @@
         <section class="more-about">
             <h2>More About Me</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-                nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-                autem deleniti cupiditate molestias quis unde quae totam porro dicta
-                iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+                My first introduction to web development came from a final-year middle school project that were
+                meant to help my fellow peers via a website that shared student notes. As my HTML and CSS
+                skills were then subpar, it jumpstarted a desire to improve my programming and design skills.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-                nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum.
+                Throughout university, I undertook several projects (both in-class and personal) to achieve
+                this goal, a few of which have been highlighted below. Roles that I am particularly am drawn
+                to include <strong>full-stack web development, UI/UX design, and mobile development</strong>. 
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-                nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum.
+                As a new graduate, there is plenty I am open to learning! I aspire to grow my portfolio and further
+                my skills.
             </p>
         </section>
 
@@ -134,11 +150,10 @@
                     />
                     <h3 class="project-title">Air Force Performance Website</h3>
                     <p class="project-details">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                        ratione vel inventore labore commodi modi quos culpa aut saepe!
-                        Alias!
+                        A web application commissioned for use by the U.S.A.F to enable airmen
+                        to write and generate performance reports according to standard.
                     </p>
-                    <a href="#" target="_blank" class="project-link">Read More</a>
+                    <a href="https://github.com/cvxluo/junior-design-project" target="_blank" class="project-link">Read More</a>
                 </div>
                 <div class="project-container project-card">
                     <img
@@ -149,11 +164,10 @@
                     />
                     <h3 class="project-title">Dodge 'Em GBA Game</h3>
                     <p class="project-details">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                        ratione vel inventore labore commodi modi quos culpa aut saepe!
-                        Alias!
+                        A Game Boy Advance emulated game where a player dodges multiple 
+                        "enemies" bouncing around using an orange ball.
                     </p>
-                    <a href="#" target="_blank" class="project-link">Read More</a>
+                    <a href="https://github.com/ianlooyuen/dodge_em_gba" target="_blank" class="project-link">Read More</a>
                 </div>
                 <div class="project-container project-card">
                     <img
@@ -164,11 +178,11 @@
                     />
                     <h3 class="project-title">Yang Yang Virtual Pet</h3>
                     <p class="project-details">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                        ratione vel inventore labore commodi modi quos culpa aut saepe!
-                        Alias!
+                        A prototype of a virtual pet web application meant to promote
+                        good behavior in children via a reward system in the form of a fun
+                        game!
                     </p>
-                    <a href="#" target="_blank" class="project-link">Read More</a>
+                    <a href="https://github.com/leonard-thong/virtual-pet-frontend" target="_blank" class="project-link">Read More</a>
                 </div>
             </div>
         </section>
@@ -178,14 +192,14 @@
             <h2>Contact Me!</h2>
             <div class="contact-form-container">
                 <div class="contact-form">
-                    <form action="" method="POST">
+                    <form action="mailto: ianlooyuen@gmail.com" method="GET" enctype="text/plain">
                         <div class="form-control">
-                            <label for="name">Name</label>
+                            <label for="name">Subject</label>
                             <input
                                 type="text"
-                                id="name"
-                                name="sender-name"
-                                placeholder="Enter Your Name"
+                                id="subject"
+                                name="subject"
+                                placeholder="Enter Your Subject"
                                 class="input-field"
                                 required
                             />
@@ -208,14 +222,14 @@
                                 cols="60"
                                 rows="10"
                                 placeholder="Enter Your Message"
-                                name="message"
+                                name="body"
                                 class="input-field"
                                 required
                             ></textarea>
                         </div>
                         <input
                             type="submit"
-                            value="Submit"
+                            value="Send"
                             id="submit-btn"
                             class="submit-btn"
                         />
@@ -235,14 +249,14 @@
 
         <!-- Footer Section -->
         <footer>
-            <h2>Find Me On...</h2>
+            <h2>Connect With Me!</h2>
             <div class="social-container">
-                <a href="#" class="fa fa-instagram" target="_blank"></a>
-                <a href="#" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://www.instagram.com/_iananana_" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/yu-en-ian-loo/" class="fa fa-linkedin" target="_blank"></a>
                 <a href="mailto: ianlooyuen@gmail.com" class="fa fa-google" target="_blank"></a>
                 <a href="https://github.com/ianlooyuen" class="fa fa-github" target="_blank"></a>
             </div>
-            <p class="copy">Built by myself in 2023.</p>
+            <p class="copy">Built by myself &copy; in 2023.</p>
         </footer>
 
         <!-- Website Scripts -->
